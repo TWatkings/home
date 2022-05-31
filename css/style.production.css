@@ -149,7 +149,6 @@ a:visited {
           -ms-flex: 1 1 100px;
               flex: 1 1 100px;
   }
-
   .page-footer {
       clear: both;
       display: -webkit-box;
@@ -287,3 +286,4 @@ a:visited {
       font-size: 22px;
     }
   }
+  

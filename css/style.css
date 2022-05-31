@@ -44,7 +44,7 @@ a:visited {
     color: var(--a-visit-color);
   }
 
-  a:hover a:focus {
+  a:hover a:foc  us {
     /* No underlining when hovering over a link */
     text-decoration: none;
   }
@@ -86,14 +86,17 @@ a:visited {
   .page-header {
       display: flex;
       width: 100%;
-      padding: 20px;
+      padding: 20
+      
+      px;
   }
   .page-header_item {
       flex: 0 1 200px;
   }
   .page-header_item:last-child {
       flex-grow: 1;
-      text-align: right;
+      text-align: right;  
+
   }
    .navigation-list__item--active {
     text-decoration: none;
