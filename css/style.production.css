@@ -24,10 +24,37 @@ body {
   text-transform: uppercase;
 }
 
-table {
-  border: thick;
+table.experince {
+  margin: auto;
+  width: 600px;
+  border-collapse: collapse;
+  border: 1px thick #000;
+  border-style: none;
+  
+ 
+}
+table.experince caption {
+  background-color: #f76414;
+  color: #000;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: .5em;
+
+}
+table.experince thead th{
+  padding: 20px;
+  font-size: large;
   background-color: aqua;
   text-decoration: underline;
+}
+table.experince thead th#Skill, table.experince thead th#Years, table.experince thead th#Level{
+  width: 20%;
+}
+table.experince th, table.experince td{
+  padding: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f76414 #000;
 }
 
 h1 {
@@ -132,6 +159,9 @@ button:hover, button:focus  .button:hover, .button:focus {
 }
 .navigation-list {
     list-style-type: none; /* get rid of dots on ul list*/
+}
+#about-list {
+  list-style-type: none;
 }
 .navigation-list li {
     display: inline-block;
